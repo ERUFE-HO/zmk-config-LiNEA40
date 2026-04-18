@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -132,7 +132,7 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        Mac {
+        MAC {
             bindings = <
 &trans                &trans            &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans                &trans            &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -141,7 +141,7 @@
             >;
         };
 
-        ios {
+        iOS {
             bindings = <
 &trans                &trans            &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans                &trans            &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
